@@ -76,19 +76,19 @@ public class TimeUtil {
     hours %= 24;
 
     if (days > 0) {
-      joiner.add(days + "d");
+      joiner.add(days + "天");
     }
 
     if (hours > 0) {
-      joiner.add(hours + "h");
+      joiner.add(hours + "时");
     }
 
     if (minutes > 0) {
-      joiner.add(minutes + "m");
+      joiner.add(minutes + "分");
     }
 
     if (seconds > 0) {
-      joiner.add(seconds + "s");
+      joiner.add(seconds + "秒");
     }
 
     return joiner.toString();
